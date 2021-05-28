@@ -22,8 +22,7 @@ class Book(models.Model):
 	price = models.IntegerField(null=False, blank=False)
 	pages = models.IntegerField(null=False, blank=False)
 	rating = models.DecimalField(blank=True, null=True, max_digits=5, decimal_places=2)
-	author = models.ManyToManyField(Author, related_name="author",
-	through='PagesWritten')
+	author = models.ManyToManyField(Author, related_name="author", through='PagesWritten')
 	publisher = models.ForeignKey(Publisher, on_delete=models.CASCADE)
 
 	class Meta:
@@ -46,6 +45,9 @@ class Store(models.Model):
 
 
 class PagesWritten(models.Model):
-	author = models.ForeignKey('Author', related_name='pages_written', on_delete=models.SET_NULL, null=True)
-	book = models.ForeignKey('Book', related_name='pages_written', on_delete=models.SET_NULL, null=True, blank=True)
+	author = models.ForeignKey('Author', related_name='author_wrote', on_delete=models.SET_NULL, null=True)
+	book = models.ForeignKey('Book', related_name='books_written', on_delete=models.SET_NULL, null=True, blank=True)
 	pages_written = models.IntegerField()
+
+	def __str__(self) -> str:
+		return f"{self.author}: {self.book}"

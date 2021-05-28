@@ -1,0 +1,41 @@
+"GET / HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 18
+Not Found: /home
+"GET /home HTTP/1.1" 404 2104
+"GET / HTTP/1.1" 200 18
+F:\Fero.AI\test_project\test_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 18
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 18
+Not Found: /home
+"GET /home HTTP/1.1" 404 2104
+F:\Fero.AI\test_project\test_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 18
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2125
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 18
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 18
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader

@@ -1,6 +1,7 @@
-import random
 from django.core.management.base import BaseCommand
-from test_app.models import Publisher, Store, Book, Author
+from ...models import Author, Book, PagesWritten, Publisher, Store
+
+import random
 
 import requests
 
@@ -12,9 +13,10 @@ class Command(BaseCommand):
 
 	def delete_old_data(self):
 		print("DELETING OLD DATA...")
-		# Author.objects.all().delete()
+		Author.objects.all().delete()
 		Book.objects.all().delete()
-		# Publisher.objects.all().delete()
+		PagesWritten.objects.all().delete()
+		Publisher.objects.all().delete()
 		Store.objects.all().delete()
 		print("DELETED OLD DATA...")
 
@@ -31,7 +33,7 @@ class Command(BaseCommand):
 		print("Publishers CREATED...")
 
 
-	def create_authors(self, num_authors):
+	def create_authors(self, num_authors=50):
 		print("CREATING AUTHORS")
 
 		getUserURL = "https://api.randomuser.me"
@@ -51,12 +53,12 @@ class Command(BaseCommand):
 		print("CREATING BOOKS...")
 
 		# create 20 books for every publishers
-		all_authors = Author.objects.all()
+		# all_authors = Author.objects.all()
 		
 		counter = 0
-		books = []
+		# books = []
 		for publisher in Publisher.objects.all():
-			for i in range(20):
+			for _ in range(20):
 				counter += 1
 				book = Book.objects.create(
 					name=f"Book{counter}",
@@ -66,8 +68,8 @@ class Command(BaseCommand):
 					publisher=publisher
 				)
 				book.save()
-				for _ in range(random.randint(1, 4)):
-					book.author.add(Author.objects.get(id=random.randint(1, 50)))
+				# for _ in range(random.randint(1, 4)):
+				# 	book.author.add(Author.objects.get(id=random.randint(1, 50)))
 
 		print("BOOKS CREATED...")
 
@@ -89,16 +91,31 @@ class Command(BaseCommand):
 		print("STORES CREATED...")
 
 
+	def create_through_pages_written(self):
+
+		pages_written_bulk = list()
+		for i in range(20):
+			
+			author = Author.objects.get(id=i)
+			book = Book.objects.get(id=i)
+			pages_written = random.randint(50, 500)
+			pages_written_bulk.append(PagesWritten(author=author, book=book, pages_written=pages_written))
+		
+		PagesWritten.objects.bulk_create(pages_written_bulk)
+
+
 	def handle(self, *args, **options):
 
 		print("INSERTING QUERIES...")
 
-		self.delete_old_data()
+		# self.delete_old_data()
 
-		self.create_publishers(10)
+		# self.create_publishers(10)
 
-		self.create_authors(50)
+		# self.create_authors(50)
 
-		self.create_books()
+		# self.create_books()
 
 		self.create_stores()
+
+		# self.create_through_pages_written()

@@ -1,0 +1,9 @@
+https://betterprogramming.pub/django-select-related-and-prefetch-related-f23043fd635d
+
+https://api.randomuser.me/
+
+
+
+https://docs.djangoproject.com/en/3.2/ref/models/conditional-expressions/
+
+https://adriennedomingus.medium.com/soft-deletion-in-django-e4882581c340

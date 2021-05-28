@@ -1,0 +1,21 @@
+select related
+prefetch related
+annotation
+aggregation
+many to many field
+		https://www.sankalpjonna.com/learn-django/the-right-way-to-use-a-manytomanyfield-in-django
+		https://www.revsys.com/tidbits/tips-using-djangos-manytomanyfield/
+
+many to many relation - through tables/field
+	https://docs.djangoproject.com/en/3.2/ref/models/fields/#django.db.models.ManyToManyField.through
+
+foreign key
+
+onetoone relation
+
+slug field
+
+SOFT DELETE - https://adriennedomingus.medium.com/soft-deletion-in-django-e4882581c340
+
+
+Model.delete - https://docs.djangoproject.com/en/3.2/ref/models/instances/#django.db.models.Model.delete

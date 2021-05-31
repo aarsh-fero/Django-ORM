@@ -39,3 +39,2011 @@ F:\Fero.AI\test_project\test_app\views.py changed, reloading.
 Watching for file changes with StatReloader
 F:\Fero.AI\test_project\test_app\views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 18
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2279
+Not Found: /books
+"GET /books HTTP/1.1" 404 2261
+Not Found: /books/
+"GET /books/ HTTP/1.1" 404 2264
+F:\Fero.AI\test_project\test_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /books/
+"GET /books/ HTTP/1.1" 404 2265
+F:\Fero.AI\test_project\test_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /books/ HTTP/1.1" 200 9554
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /books/1
+"GET /books/1 HTTP/1.1" 404 2268
+F:\Fero.AI\test_project\test_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /books/1
+"GET /books/1 HTTP/1.1" 404 2268
+"GET /books/ HTTP/1.1" 200 9554
+F:\Fero.AI\test_project\test_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /books/ HTTP/1.1" 200 9689
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /books/books/ HTTP/1.1" 200 68299
+"GET /books/books/1 HTTP/1.1" 301 0
+"GET /books/books/1/ HTTP/1.1" 200 16375
+F:\Fero.AI\test_project\test_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /books/books/1/
+"GET /books/books/1/ HTTP/1.1" 404 2290
+"GET /project/books/1/ HTTP/1.1" 200 15205
+"GET /project/books/ HTTP/1.1" 200 53816
+"GET /project/authors/ HTTP/1.1" 200 17991
+"GET /project/authors/1 HTTP/1.1" 301 0
+"GET /project/authors/1/ HTTP/1.1" 200 14574
+"GET /project/authors/2 HTTP/1.1" 301 0
+"GET /project/authors/2/ HTTP/1.1" 200 14601
+"GET /project/books/2/ HTTP/1.1" 200 15190
+"PUT /project/books/2/ HTTP/1.1" 200 15214
+"GET /project/books/2/ HTTP/1.1" 200 15214
+"PUT /project/books/2/ HTTP/1.1" 200 15220
+F:\Fero.AI\test_project\test_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /project/pages_written HTTP/1.1" 301 0
+"GET /project/pages_written/ HTTP/1.1" 200 34230
+"GET /project/books/69/ HTTP/1.1" 200 15219
+"POST /project/pages_written/ HTTP/1.1" 201 34103
+"GET /project/books/73 HTTP/1.1" 301 0
+"GET /project/books/73/ HTTP/1.1" 200 15219
+"POST /project/pages_written/ HTTP/1.1" 201 34101
+"OPTIONS /project/pages_written/ HTTP/1.1" 200 35194
+"GET /project/pages_written/ HTTP/1.1" 200 34459
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /project/pages_written/ HTTP/1.1" 200 34459
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /project/pages_written/5 HTTP/1.1" 301 0
+Not Found: /project/pages_written/5/
+"GET /project/pages_written/5/ HTTP/1.1" 404 35410
+"GET /project/pages_written/4 HTTP/1.1" 301 0
+"GET /project/pages_written/4/ HTTP/1.1" 200 35443
+Not Found: /project/author/4/
+"GET /project/author/4/ HTTP/1.1" 404 5764
+"GET /project/authors HTTP/1.1" 301 0
+"GET /project/authors/ HTTP/1.1" 200 17991
+"GET /project/authors/6 HTTP/1.1" 301 0
+"GET /project/authors/6/ HTTP/1.1" 200 14580
+"GET /project/pages_written/ HTTP/1.1" 200 34459
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 26, in validate
+    book = data.book
+AttributeError: 'collections.OrderedDict' object has no attribute 'book'
+"POST /project/pages_written/ HTTP/1.1" 500 115430
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110694
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110694
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 28, in validate
+    print(f"pages: {b.pages}")
+AttributeError: 'QuerySet' object has no attribute 'pages'
+"POST /project/pages_written/ HTTP/1.1" 500 115964
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110694
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110694
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110694
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 29, in validate
+    a = data['pages']
+KeyError: 'pages'
+"POST /project/pages_written/ HTTP/1.1" 500 115496
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 30, in validate
+    if a > b.page:
+AttributeError: 'Book' object has no attribute 'page'
+"POST /project/pages_written/ HTTP/1.1" 500 116073
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110565
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 27, in validate
+    b = Book.objects.prefetch_related('books_written')(name=book)
+TypeError: 'QuerySet' object is not callable
+"POST /project/pages_written/ HTTP/1.1" 500 115712
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110702
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 29, in validate
+    print(f"{b.books_written}")
+AttributeError: 'QuerySet' object has no attribute 'books_written'
+"POST /project/pages_written/ HTTP/1.1" 500 116104
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110702
+"GET /project/pages_written/ HTTP/1.1" 200 34459
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110548
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110549
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110555
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110561
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 29, in validate
+    for i in b:
+TypeError: 'Book' object is not iterable
+"POST /project/pages_written/ HTTP/1.1" 500 115833
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 29, in validate
+    for i in b:
+TypeError: 'Book' object is not iterable
+"POST /project/pages_written/ HTTP/1.1" 500 115818
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 27, in validate
+    b = Book.objects.select_related('books_written').filter(name=book).first()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 664, in first
+    for obj in (self if self.ordered else self.order_by('pk'))[:1]:
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 51, in pre_sql_setup
+    self.setup_query()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 42, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 243, in get_select
+    related_klass_infos = self.get_related_selections(select)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 960, in get_related_selections
+    raise FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'books_written'. Choices are: publisher
+"POST /project/pages_written/ HTTP/1.1" 500 160804
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 29, in validate
+    for i in b:
+TypeError: 'Book' object is not iterable
+"POST /project/pages_written/ HTTP/1.1" 500 115818
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110698
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110571
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 197, in save
+    validated_data = {**self.validated_data, **kwargs}
+TypeError: 'bool' object is not a mapping
+"POST /project/pages_written/ HTTP/1.1" 500 110744
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 29, in validate
+    print(f"{b.pages}")
+AttributeError: 'NoneType' object has no attribute 'pages'
+"POST /project/pages_written/ HTTP/1.1" 500 116414
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34085
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 29, in validate
+    print(bk.book)
+AttributeError: 'QuerySet' object has no attribute 'book'
+"POST /project/pages_written/ HTTP/1.1" 500 116180
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 29, in validate
+    print(bk.book)
+AttributeError: 'QuerySet' object has no attribute 'book'
+"POST /project/pages_written/ HTTP/1.1" 500 116276
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 29, in validate
+    print(bk.book)
+AttributeError: 'Book' object has no attribute 'book'
+"POST /project/pages_written/ HTTP/1.1" 500 116248
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+"GET /project/pages_written/ HTTP/1.1" 200 34459
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34127
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34127
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34127
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34127
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34127
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34127
+"GET /project/pages_written/ HTTP/1.1" 200 34459
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 31, in validate
+    print(bk.pages_written)
+AttributeError: 'Book' object has no attribute 'pages_written'
+"POST /project/pages_written/ HTTP/1.1" 500 116193
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 31, in validate
+    print(bk['pages_written'])
+TypeError: 'Book' object is not subscriptable
+"POST /project/pages_written/ HTTP/1.1" 500 116184
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+"GET /project/pages_written/ HTTP/1.1" 200 34459
+"GET /project/pages_written/3 HTTP/1.1" 301 0
+"GET /project/pages_written/3/ HTTP/1.1" 200 35446
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 39, in validate
+    print(pw.book.price)
+AttributeError: 'QuerySet' object has no attribute 'book'
+"POST /project/pages_written/ HTTP/1.1" 500 116075
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /project/books/71 HTTP/1.1" 301 0
+"GET /project/books/71/ HTTP/1.1" 200 15219
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 40, in validate
+    print(pw.book.price)
+AttributeError: 'QuerySet' object has no attribute 'book'
+"POST /project/pages_written/ HTTP/1.1" 500 116062
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 34, in validate
+    print(total.total_pages_written)
+AttributeError: 'QuerySet' object has no attribute 'total_pages_written'
+"POST /project/pages_written/ HTTP/1.1" 500 116723
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34122
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34123
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34123
+"GET /project/pages_written/ HTTP/1.1" 200 34459
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 41, in validate
+    if pages + total > pw.book.pages:
+AttributeError: 'QuerySet' object has no attribute 'book'
+"POST /project/pages_written/ HTTP/1.1" 500 116581
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 42, in validate
+    if pages + total > b.pages:
+AttributeError: 'QuerySet' object has no attribute 'pages'
+"POST /project/pages_written/ HTTP/1.1" 500 116609
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /project/pages_written/ HTTP/1.1" 201 34101
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /project/pages_written/ HTTP/1.1" 200 34573
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34125
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+"POST /project/pages_written/ HTTP/1.1" 201 34099
+"GET /project/pages_written/ HTTP/1.1" 200 34686
+"POST /project/pages_written/ HTTP/1.1" 201 34098
+"POST /project/pages_written/ HTTP/1.1" 201 34098
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34122
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34109
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34109
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34123
+"GET /project/pages_written/ HTTP/1.1" 200 34912
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /project/pages_written/8 HTTP/1.1" 301 0
+"GET /project/pages_written/8/ HTTP/1.1" 200 35439
+"DELETE /project/pages_written/8/ HTTP/1.1" 200 35364
+Not Found: /project/pages_written/8/
+"GET /project/pages_written/8/ HTTP/1.1" 404 35410
+"GET /project/pages_written/ HTTP/1.1" 200 34799
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34109
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 36, in validate
+    print(total.total_pages_written)
+AttributeError: 'QuerySet' object has no attribute 'total_pages_written'
+"POST /project/pages_written/ HTTP/1.1" 500 117160
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 37, in validate
+    print(t.total_pages_written)
+AttributeError: 'QuerySet' object has no attribute 'total_pages_written'
+"POST /project/pages_written/ HTTP/1.1" 500 117012
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 37, in validate
+    print(t.total_pages_written)
+AttributeError: 'QuerySet' object has no attribute 'total_pages_written'
+"POST /project/pages_written/ HTTP/1.1" 500 117060
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 37, in validate
+    print(t.author)
+AttributeError: 'QuerySet' object has no attribute 'author'
+"POST /project/pages_written/ HTTP/1.1" 500 116956
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 37, in validate
+    print(t.total_pages_written)
+AttributeError: 'QuerySet' object has no attribute 'total_pages_written'
+"POST /project/pages_written/ HTTP/1.1" 500 117060
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34091
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34091
+"GET /project/pages_written/ HTTP/1.1" 200 34799
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34198
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 37, in validate
+    print(t[1].total_pages_written)
+KeyError: 1
+"POST /project/pages_written/ HTTP/1.1" 500 116066
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34093
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34093
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34093
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34093
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34093
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34093
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34093
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34093
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34093
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 37, in validate
+    print(t.total_authors)
+AttributeError: 'QuerySet' object has no attribute 'total_authors'
+"POST /project/pages_written/ HTTP/1.1" 500 116963
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34093
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34124
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34123
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34123
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34123
+"POST /project/pages_written/ HTTP/1.1" 201 34099
+"OPTIONS /project/pages_written/ HTTP/1.1" 200 35194
+"GET /project/pages_written/ HTTP/1.1" 200 34912
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34110
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34110
+"GET /project/pages_written/ HTTP/1.1" 200 34912
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 36, in validate
+    print(f'Total Pages Written: {t.first().total_pages_written}')
+AttributeError: 'dict' object has no attribute 'first'
+"POST /project/pages_written/ HTTP/1.1" 500 116846
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34110
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 37, in validate
+    print(t.pages_written)
+AttributeError: 'dict' object has no attribute 'pages_written'
+"POST /project/pages_written/ HTTP/1.1" 500 116856
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 37, in validate
+    print(t['pages_written'])
+KeyError: 'pages_written'
+"POST /project/pages_written/ HTTP/1.1" 500 116689
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /project/pages_written/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 37, in validate
+    print(f'Total Pages Written: {t.total_pages_written}')
+AttributeError: 'dict' object has no attribute 'total_pages_written'
+"POST /project/pages_written/ HTTP/1.1" 500 117207
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34110
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34110
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34123
+"GET /project/pages_written/ HTTP/1.1" 200 34912
+Bad Request: /project/pages_written/
+"POST /project/pages_written/ HTTP/1.1" 400 34123

@@ -13,11 +13,11 @@ class Command(BaseCommand):
 
 	def delete_old_data(self):
 		print("DELETING OLD DATA...")
-		Author.objects.all().delete()
-		Book.objects.all().delete()
 		PagesWritten.objects.all().delete()
-		Publisher.objects.all().delete()
 		Store.objects.all().delete()
+		Book.objects.all().delete()
+		Author.objects.all().delete()
+		Publisher.objects.all().delete()
 		print("DELETED OLD DATA...")
 
 

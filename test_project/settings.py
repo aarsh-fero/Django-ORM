@@ -38,7 +38,8 @@ INSTALLED_APPS = [
 	'django.contrib.messages',
 	'django.contrib.staticfiles',
 	'test_app',
-	'django_extensions'
+	'django_extensions',
+	'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -81,6 +82,8 @@ DATABASES = {
 		'NAME': str(os.path.join(BASE_DIR, "db.sqlite3"))
 	}
 }
+SITE_ID = 1
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
 # Password validation

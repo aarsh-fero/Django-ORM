@@ -18,7 +18,7 @@ class Publisher(models.Model):
 
 	
 class Book(models.Model):
-	name = models.CharField(max_length=255)
+	name = models.CharField(max_length=255, unique=True)
 	price = models.IntegerField(null=False, blank=False)
 	pages = models.IntegerField(null=False, blank=False)
 	rating = models.DecimalField(blank=True, null=True, max_digits=5, decimal_places=2)

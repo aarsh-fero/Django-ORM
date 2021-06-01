@@ -1,8 +1,8 @@
+from django.contrib.auth.models import User
 from django.db.models.aggregates import Sum
 from rest_framework import serializers
 
-from .models import Author, Book, PagesWritten
-# from .permissions import CustomPermission
+from .models import Author, Book, Genre, PagesWritten
 
 class AuthorSerializer(serializers.ModelSerializer):
 
@@ -11,25 +11,55 @@ class AuthorSerializer(serializers.ModelSerializer):
 		fields = ('name', 'age')
 
 
+class GenreSerializer(serializers.ModelSerializer):
+	class Meta:
+		model = Genre
+		fields = "__all__"
+
+
 class BookSerializer(serializers.ModelSerializer):
+
+	genre = GenreSerializer(many=True)
+	# genre = serializers.ReadOnlyField(source='genre.name')
+	# genre = serializers.SlugRelatedField(slug_field="genre.name", read_only=True)
 
 	class Meta:
 		model = Book
-		fields = ('id', 'name', 'price', 'pages', 'rating', 'publisher', 'added_by', 'updated_by')
+		fields = ('id', 'name', 'price', 'pages', 'rating', 'publisher', 'genre', 'added_by', 'updated_by')
 		read_only_fields = ['id', 'added_by', 'updated_by']
 
 	def create(self, validated_data):
 		print(validated_data)
-		user = self.context.get('request').user
-
-		validated_data['added_by'] = user
+		# try:
+		# 	user = self.context.get('request').user
+		# 	print(user)
+		# 	print(user.is_anonymous)
+		# 	if not user.is_anonymous:
+		# 		print("AUTHORIZED")
+		# 		validated_data['added_by'] = user
+		# 	else:
+		# 		print("NOT AUTHORIZED")
+		# 		raise serializers.ValidationError("NOT AUTHORIZED")
+		# except:
+		# 	raise serializers.ValidationError("NOT AUTHORIZED")
 		
+		user = self.context.get('request').user
+		validated_data['added_by'] = user
 		return super().create(validated_data)
-	
+
+
 	def update(self, instance, validated_data):
-		request = self.context.get('request')
-			
-		validated_data['updated_by'] = request.user
+		try:
+			user = self.context.get('request').user
+			if not user.is_anonymous:
+				print("NOT AUTHORIZED")
+				validated_data['updated_by'] = user
+			else:
+				print("NOT AUTHORIZED")
+				raise serializers.ValidationError("NOT AUTHORIZED")
+		except:
+			print("NOT AUTHORIZED")
+			raise serializers.ValidationError("NOT AUTHORIZED")
 
 		return super().update(instance, validated_data)
 

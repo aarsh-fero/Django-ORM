@@ -7,7 +7,10 @@ many to many field
 		https://www.revsys.com/tidbits/tips-using-djangos-manytomanyfield/
 
 many to many relation - through tables/field
+	https://gist.github.com/jhgaylor/5873301
+	
 	https://docs.djangoproject.com/en/3.2/ref/models/fields/#django.db.models.ManyToManyField.through
+
 
 foreign key
 

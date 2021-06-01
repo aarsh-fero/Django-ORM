@@ -1,9 +1,11 @@
 from rest_framework.authentication import BasicAuthentication, SessionAuthentication
+from rest_framework.pagination import PageNumberPagination
+from rest_framework.permissions import IsAuthenticated
 from rest_framework import viewsets, serializers
 from django.http import HttpResponse
 
-from .models import Author, Book, PagesWritten
-from .serializers import AuthorSerializer, BookSerializer, PagesWrittenSerializer
+from .models import Author, Book, Genre, PagesWritten
+from .serializers import AuthorSerializer, BookSerializer, GenreSerializer, PagesWrittenSerializer
 from .permissions import CustomPermission
 
 import logging
@@ -18,9 +20,18 @@ def home(request):
 	return HttpResponse("<h1>Home Page</h1>") 
 
 
+class StandardResultsSetPagination(PageNumberPagination):
+	page_size = 100
+	page_size_query_param = 'page_size'
+	max_page_size = 1000
+
+
 class BookViewSet(viewsets.ModelViewSet):
 
 	authentication_classes = [ BasicAuthentication, SessionAuthentication ]
+
+	permission_classes = [ IsAuthenticated ]
+	# pagination_class = StandardResultsSetPagination
 
 	queryset = Book.objects.all()
 	serializer_class = BookSerializer
@@ -43,16 +54,6 @@ class PagesWrittenViewSet(viewsets.ModelViewSet):
 	serializer_class = PagesWrittenSerializer
 
 
-# class RegisterUser(generics.GenericAPIView):
-
-# 	# queryset = User.objects.all()
-# 	serializer_class = UserSerializer
-	
-# 	def post(self, request):
-# 		user = request.data
-		
-# 		serializer = self.serializer_class(data=user)
-# 		serializer.is_valid(raise_exception=True)
-# 		serializer.save()
-
-# 		return Response(serializer.data)
+class GenreViewSet(viewsets.ModelViewSet):
+	queryset = Genre.objects.all()
+	serializer_class = GenreSerializer

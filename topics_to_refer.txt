@@ -24,7 +24,9 @@ SOFT DELETE - https://adriennedomingus.medium.com/soft-deletion-in-django-e48825
 Model.delete - https://docs.djangoproject.com/en/3.2/ref/models/instances/#django.db.models.Model.delete
 
 
-Caching - 
-
 Locking Users Out After Invalid Login Attempts Django - A Cache
 	https://adriennedomingus.com/blog/locking-users-out-after-invalid-login-attempts-django-amp-a-cache
+
+
+advanced-models
+	https://djangobook.com/mdj2-advanced-models/

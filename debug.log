@@ -2047,3 +2047,1006 @@ Bad Request: /project/pages_written/
 "GET /project/pages_written/ HTTP/1.1" 200 34912
 Bad Request: /project/pages_written/
 "POST /project/pages_written/ HTTP/1.1" 400 34123
+Watching for file changes with StatReloader
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+"GET /static/admin/css/base.css HTTP/1.1" 200 16378
+"GET /static/admin/css/login.css HTTP/1.1" 200 1233
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2281
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 3042
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+F:\Fero.AI\test_project\test_app\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 5515
+"GET /admin/test_app/pageswritten/ HTTP/1.1" 200 6125
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6190
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+"GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+"GET /static/admin/js/core.js HTTP/1.1" 200 5723
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/test_app/ HTTP/1.1" 200 4244
+"GET /admin/test_app/store/ HTTP/1.1" 200 8547
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/ HTTP/1.1" 200 4244
+"GET /admin/test_app/book/ HTTP/1.1" 200 26896
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/book/113/change/ HTTP/1.1" 200 7140
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+"GET /admin/test_app/ HTTP/1.1" 200 4244
+"GET /admin/ HTTP/1.1" 200 5515
+"GET /admin/auth/user/ HTTP/1.1" 200 6600
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/auth/ HTTP/1.1" 200 2968
+"GET /admin/ HTTP/1.1" 200 5515
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 5515
+Internal Server Error: /admin/test_app/book/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\sqlite3\base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: test_app_book.added_by_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\sites.py", line 231, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1796, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 258, in __len__
+    self._fetch_all()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\sqlite3\base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: test_app_book.added_by_id
+"GET /admin/test_app/book/ HTTP/1.1" 500 164082
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\migrations\0001_initial.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/test_app/book/ HTTP/1.1" 200 26896
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/book/202/change/ HTTP/1.1" 200 7139
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/ HTTP/1.1" 200 5515
+"GET /admin/auth/user/ HTTP/1.1" 200 6600
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/add/ HTTP/1.1" 200 5753
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"POST /admin/auth/user/add/ HTTP/1.1" 200 6042
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+F:\Fero.AI\test_project\test_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 15536
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5753
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20232
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12318
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /admin/auth/user/2/password/ HTTP/1.1" 200 2952
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 15331
+"GET /admin/auth/user/2/password/ HTTP/1.1" 200 2952
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/ HTTP/1.1" 200 7014
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /admin/auth/user/add/ HTTP/1.1" 200 5425
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 15539
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/ HTTP/1.1" 200 6101
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/test_app/book/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\sqlite3\base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: test_app_book.added_by_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\sites.py", line 231, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\admin\options.py", line 1796, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 258, in __len__
+    self._fetch_all()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\sqlite3\base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: test_app_book.added_by_id
+"GET /admin/test_app/book/ HTTP/1.1" 500 164082
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/test_app/book/ HTTP/1.1" 200 26896
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/book/?p=2 HTTP/1.1" 200 4999
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/book/1/change/?_changelist_filters=p%3D2 HTTP/1.1" 200 7210
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"POST /admin/test_app/book/1/change/?_changelist_filters=p%3D2 HTTP/1.1" 302 0
+"GET /admin/test_app/book/?p=2 HTTP/1.1" 200 5184
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/test_app/book/1/change/?_changelist_filters=p%3D2 HTTP/1.1" 200 9530
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"POST /admin/test_app/book/1/change/?_changelist_filters=p%3D2 HTTP/1.1" 302 0
+"GET /admin/test_app/book/?p=2 HTTP/1.1" 200 5184
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/ HTTP/1.1" 200 4244
+"GET /admin/test_app/book/ HTTP/1.1" 200 26896
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/book/197/change/ HTTP/1.1" 200 9457
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"POST /admin/test_app/book/197/change/ HTTP/1.1" 302 0
+"GET /admin/test_app/book/ HTTP/1.1" 200 27083
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/book/180/change/ HTTP/1.1" 200 9458
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"POST /admin/test_app/book/180/change/ HTTP/1.1" 302 0
+"GET /admin/test_app/book/ HTTP/1.1" 200 27083
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/book/136/change/ HTTP/1.1" 200 9458
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/book/ HTTP/1.1" 200 26896
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/book/202/change/ HTTP/1.1" 200 9457
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"POST /admin/test_app/book/202/change/ HTTP/1.1" 302 0
+"GET /admin/test_app/book/ HTTP/1.1" 200 27083
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/test_app/ HTTP/1.1" 200 4244
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /books
+"GET /books HTTP/1.1" 404 2263
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2281
+"GET /project/books HTTP/1.1" 301 0
+"GET /project/books/ HTTP/1.1" 200 53827
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"GET /project/books/2 HTTP/1.1" 301 0
+"GET /project/books/2/ HTTP/1.1" 200 15220
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /project/books/ HTTP/1.1" 200 53827
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /project/books/ HTTP/1.1" 200 53890
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /auth/login/?next=/project/books/ HTTP/1.1" 200 2711
+"POST /auth/login/ HTTP/1.1" 200 2947
+"POST /auth/login/ HTTP/1.1" 200 2949
+"POST /auth/login/ HTTP/1.1" 302 0
+"GET /project/books/ HTTP/1.1" 200 53890
+F:\Fero.AI\test_project\test_project\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /project/books/
+"GET /project/books/ HTTP/1.1" 404 2438
+"GET /api/books/ HTTP/1.1" 200 53850
+"GET /auth/login/?next=/api/books/ HTTP/1.1" 200 2707
+"POST /auth/login/ HTTP/1.1" 302 0
+"GET /api/books/ HTTP/1.1" 200 53850
+"GET /auth/login/?next=/api/books/ HTTP/1.1" 200 2707
+Watching for file changes with StatReloader
+"POST /auth/login/ HTTP/1.1" 302 0
+"GET /api/books/ HTTP/1.1" 200 53850
+"GET /admin/test_app/ HTTP/1.1" 200 4244
+"GET /admin/ HTTP/1.1" 200 7535
+"GET /auth/login/?next=/api/books/ HTTP/1.1" 200 2707
+"POST /auth/login/ HTTP/1.1" 302 0
+"GET /api/books/ HTTP/1.1" 200 53850
+Not Found: /auth/
+"GET /auth/ HTTP/1.1" 404 2699
+"GET /auth/login HTTP/1.1" 301 0
+"GET /auth/login/ HTTP/1.1" 200 2696
+"POST /auth/login/ HTTP/1.1" 302 0
+Not Found: /accounts/profile/
+"GET /accounts/profile/ HTTP/1.1" 404 2447
+"GET / HTTP/1.1" 200 18
+"GET /api HTTP/1.1" 301 0
+"GET /api/ HTTP/1.1" 200 10213
+"GET /api/books/ HTTP/1.1" 200 53850
+"GET /api/books/ HTTP/1.1" 200 53850
+"GET /auth/login/?next=/api/books/ HTTP/1.1" 200 2707
+"POST /auth/login/ HTTP/1.1" 302 0
+"GET /api/books/ HTTP/1.1" 200 53850
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /auth/login/?next=/api/books/ HTTP/1.1" 200 2707
+"GET /auth/login/?next=/api/books/ HTTP/1.1" 200 2707
+"POST /auth/login/ HTTP/1.1" 302 0
+"GET /api/books/ HTTP/1.1" 200 54078
+Internal Server Error: /api/books/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\sqlite3\base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: test_app_book.publisher_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 205, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 939, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 745, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 782, in save_base
+    updated = self._save_table(
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 924, in _do_insert
+    return manager._insert(
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1391, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\sqlite3\base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: test_app_book.publisher_id
+"POST /api/books/ HTTP/1.1" 500 208150
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/books/ HTTP/1.1" 200 62063
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"POST /api/books/ HTTP/1.1" 201 15250
+"GET /admin/test_app/book/ HTTP/1.1" 200 26892
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/test_app/book/203/change/ HTTP/1.1" 200 9448
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/books/ HTTP/1.1" 200 68994
+"GET /auth/logout/?next=/api/books/ HTTP/1.1" 302 0
+"GET /api/books/ HTTP/1.1" 200 68766
+"GET /auth/login/?next=/api/books/ HTTP/1.1" 200 2707
+"POST /auth/login/ HTTP/1.1" 302 0
+"GET /api/books/ HTTP/1.1" 200 68993
+"POST /api/books/ HTTP/1.1" 201 15278
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/books/ HTTP/1.1" 200 69248
+"GET /api/books/ HTTP/1.1" 200 69248
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /api/books/ HTTP/1.1" 200 69248
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/books/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\renderers.py", line 680, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+"GET /api/books/ HTTP/1.1" 500 238465
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/books/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 419, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 472, in to_internal_value
+    for field in fields:
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 355, in _writable_fields
+    for field in self.fields.values():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 1125, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'current_user' was declared on serializer BookSerializer, but has not been included in the 'fields' option.
+"POST /api/books/ HTTP/1.1" 500 144318
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/books/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 419, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 472, in to_internal_value
+    for field in fields:
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 355, in _writable_fields
+    for field in self.fields.values():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 1125, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'current_user' was declared on serializer BookSerializer, but has not been included in the 'fields' option.
+"POST /api/books/ HTTP/1.1" 500 144455
+Internal Server Error: /api/books/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 419, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 472, in to_internal_value
+    for field in fields:
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 355, in _writable_fields
+    for field in self.fields.values():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 1125, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'current_user' was declared on serializer BookSerializer, but has not been included in the 'fields' option.
+"POST /api/books/ HTTP/1.1" 500 144455
+Internal Server Error: /api/books/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 1125, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'current_user' was declared on serializer BookSerializer, but has not been included in the 'fields' option.
+"GET /api/books/ HTTP/1.1" 500 151494
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/books/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\renderers.py", line 680, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+"GET /api/books/ HTTP/1.1" 500 238483
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /auth/login/?next=/api/books/ HTTP/1.1" 200 2707
+"POST /auth/login/ HTTP/1.1" 302 0
+Internal Server Error: /api/books/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 278, in get_permissions
+    return [permission() for permission in self.permission_classes]
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 278, in <listcomp>
+    return [permission() for permission in self.permission_classes]
+TypeError: has_update_permission() missing 3 required positional arguments: 'self', 'request', and 'view'
+"GET /api/books/ HTTP/1.1" 500 111925
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/books/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 278, in get_permissions
+    return [permission() for permission in self.permission_classes]
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 278, in <listcomp>
+    return [permission() for permission in self.permission_classes]
+TypeError: has_update_permission() missing 3 required positional arguments: 'self', 'request', and 'view'
+"GET /api/books/ HTTP/1.1" 500 112062
+Internal Server Error: /api/books/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 278, in get_permissions
+    return [permission() for permission in self.permission_classes]
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 278, in <listcomp>
+    return [permission() for permission in self.permission_classes]
+TypeError: has_update_permission() missing 3 required positional arguments: 'self', 'request', and 'view'
+"GET /api/books/ HTTP/1.1" 500 111753
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/books/ HTTP/1.1" 200 69249
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /api/books/158 HTTP/1.1" 301 0
+"GET /api/books/158/ HTTP/1.1" 200 16674
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/books/158/ HTTP/1.1" 200 16740
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"PUT /api/books/158/ HTTP/1.1" 200 16740
+"GET /api/books/ HTTP/1.1" 200 76393
+"GET /api/books/2 HTTP/1.1" 301 0
+"GET /api/books/2/ HTTP/1.1" 200 16725
+"PUT /api/books/2/ HTTP/1.1" 200 16725
+"GET /api/books/ HTTP/1.1" 200 76393
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/test_app/book/203/change/ HTTP/1.1" 200 10028
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /admin/test_app/book/ HTTP/1.1" 200 26893
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+F:\Fero.AI\test_project\test_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/books/201 HTTP/1.1" 301 0
+"GET /api/books/201/ HTTP/1.1" 200 16742
+"PUT /api/books/201/ HTTP/1.1" 200 16742
+F:\Fero.AI\test_project\test_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"PUT /api/books/201/ HTTP/1.1" 200 16742
+F:\Fero.AI\test_project\test_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/books/201/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\request.py", line 416, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'book'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 68, in update
+    self.perform_update(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 78, in perform_update
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 200, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 33, in update
+    if CustomPermission.has_update_permission(self, request, user):
+  File "F:\Fero.AI\test_project\test_app\permissions.py", line 11, in has_update_permission
+    print(request.book)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\request.py", line 418, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'book'
+"PUT /api/books/201/ HTTP/1.1" 500 130904
+F:\Fero.AI\test_project\test_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/books/201/ HTTP/1.1" 200 16742
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"PUT /api/books/201/ HTTP/1.1" 200 16742
+F:\Fero.AI\test_project\test_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+"PUT /api/books/201/ HTTP/1.1" 200 16742
+"GET /api/books/204/ HTTP/1.1" 200 16712
+"PUT /api/books/204/ HTTP/1.1" 200 16712
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/books/204/
+Traceback (most recent call last):
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 68, in update
+    self.perform_update(serializer)
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\mixins.py", line 78, in perform_update
+    serializer.save()
+  File "C:\Users\Aarsh\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\serializers.py", line 200, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "F:\Fero.AI\test_project\test_app\serializers.py", line 31, in update
+    if CustomPermission.has_update_permission(self, request) is False:
+TypeError: has_update_permission() missing 1 required positional argument: 'user'
+"PUT /api/books/204/ HTTP/1.1" 500 118417
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/books/204/ HTTP/1.1" 200 16712
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+Bad Request: /api/books/204/
+"PUT /api/books/204/ HTTP/1.1" 400 16394
+"GET /api/books/203/ HTTP/1.1" 200 16722
+Bad Request: /api/books/203/
+"PUT /api/books/203/ HTTP/1.1" 400 16394
+"GET /api/books/203/ HTTP/1.1" 200 16722
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/books/203/ HTTP/1.1" 200 16722
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+Bad Request: /api/books/203/
+"PUT /api/books/203/ HTTP/1.1" 400 16395
+"GET /api/books/203/ HTTP/1.1" 200 16722
+"GET /api/books/ HTTP/1.1" 200 76393
+"GET /api/books/180 HTTP/1.1" 301 0
+"GET /api/books/180/ HTTP/1.1" 200 16740
+"PUT /api/books/180/ HTTP/1.1" 200 16740
+"GET /api/books/ HTTP/1.1" 200 76393
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+F:\Fero.AI\test_project\test_app\views.py changed, reloading.
+Watching for file changes with StatReloader

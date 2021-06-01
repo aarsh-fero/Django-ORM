@@ -40,6 +40,10 @@ INSTALLED_APPS = [
 	'test_app',
 	'django_extensions',
 	'rest_framework',
+
+	'rest_auth',
+	'rest_auth.registration',
+
 ]
 
 MIDDLEWARE = [
@@ -89,20 +93,20 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
-AUTH_PASSWORD_VALIDATORS = [
-	{
-		'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-	},
-	{
-		'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-	},
-	{
-		'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-	},
-	{
-		'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-	},
-]
+# AUTH_PASSWORD_VALIDATORS = [
+# 	{
+# 		'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+# 	},
+# 	{
+# 		'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+# 	},
+# 	{
+# 		'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+# 	},
+# 	{
+# 		'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+# 	},
+# ]
 
 
 # Internationalization
@@ -168,3 +172,12 @@ LOGGING = {
 # ERROR: Its severity point is 40.
 
 # CRITICAL: Its severity point is 50.
+
+
+# ------------------------------------------------------------
+# AUTH_USER_MODEL = 'test_app.User'
+# ------------------------------------------------------------
+
+ACCOUNT_USER_MODEL_USERNAME_FIELD = 'username'
+ACCOUNT_USERNAME_REQUIRED = True
+ACCOUNT_EMAIL_REQUIRED = False

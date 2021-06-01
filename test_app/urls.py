@@ -8,9 +8,12 @@ router = DefaultRouter()
 
 router.register(r'authors', views.AuthorViewSet)
 router.register(r'books', views.BookViewSet)
-router.register(r'pages_written', views.PagesWrittenViewSet)
+router.register(r'pw', views.PagesWrittenViewSet)
 
 urlpatterns = [
 	path('', views.home),
-	url(r'^project/', include(router.urls)),
+	path('auth/', include('rest_framework.urls')),
+    # path('register/', RegisterUser.as_view(), name="register"),
+
+	url(r'^api/', include(router.urls)),
 ]

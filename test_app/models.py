@@ -1,6 +1,9 @@
+# from django.contrib.auth
+from django.contrib.auth.models import User, Permission, AbstractUser
 from django.db import models
-# Create your models here.
+from rest_framework import permissions
 
+# Create your models here.
 
 class Author(models.Model):
 	name = models.CharField(max_length=100)
@@ -8,6 +11,7 @@ class Author(models.Model):
 
 	def __str__(self):
 		return self.name
+
 
 class Publisher(models.Model):
 	name = models.CharField(max_length=300)
@@ -24,12 +28,17 @@ class Book(models.Model):
 	rating = models.DecimalField(blank=True, null=True, max_digits=5, decimal_places=2)
 	author = models.ManyToManyField(Author, related_name="author", through='PagesWritten')
 	publisher = models.ForeignKey(Publisher, on_delete=models.CASCADE)
+	added_by = models.ForeignKey(User, related_name="books_added", on_delete=models.SET_NULL, null=True, blank=True)
+	updated_by = models.ForeignKey(User, related_name="books_updated", on_delete=models.SET_NULL, null=True, blank=True)
 
 	class Meta:
 		default_related_name = 'books'
 
 	def __str__(self):
 		return self.name
+	
+	# def get_pages_written(self):
+	# 	return self.author.all()
 
 
 class Store(models.Model):

@@ -1,8 +1,8 @@
-from django.db.models.aggregates import Count, Sum
+from django.db.models.aggregates import Sum
 from rest_framework import serializers
 
 from .models import Author, Book, PagesWritten
-
+# from .permissions import CustomPermission
 
 class AuthorSerializer(serializers.ModelSerializer):
 
@@ -12,9 +12,26 @@ class AuthorSerializer(serializers.ModelSerializer):
 
 
 class BookSerializer(serializers.ModelSerializer):
+
 	class Meta:
 		model = Book
-		fields = ('id', 'name', 'price', 'pages', 'rating')
+		fields = ('id', 'name', 'price', 'pages', 'rating', 'publisher', 'added_by', 'updated_by')
+		read_only_fields = ['id', 'added_by', 'updated_by']
+
+	def create(self, validated_data):
+		print(validated_data)
+		user = self.context.get('request').user
+
+		validated_data['added_by'] = user
+		
+		return super().create(validated_data)
+	
+	def update(self, instance, validated_data):
+		request = self.context.get('request')
+			
+		validated_data['updated_by'] = request.user
+
+		return super().update(instance, validated_data)
 
 
 class PagesWrittenSerializer(serializers.ModelSerializer):

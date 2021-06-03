@@ -2,13 +2,15 @@ from django.contrib.auth.models import User
 from django.db.models.aggregates import Sum
 from rest_framework import serializers
 
-from .models import Author, Book, Genre, PagesWritten
+from .models import Author, Book, Genre, PagesWritten, Store
+# from .models import Actor, Movie, Director, Platforms
+
 
 class AuthorSerializer(serializers.ModelSerializer):
 
 	class Meta:
 		model = Author
-		fields = ('name', 'age')
+		fields = ('author', 'age')
 
 
 class GenreSerializer(serializers.ModelSerializer):
@@ -19,7 +21,7 @@ class GenreSerializer(serializers.ModelSerializer):
 
 class BookSerializer(serializers.ModelSerializer):
 
-	genre = GenreSerializer(many=True)
+	# genre = GenreSerializer(many=True)
 	# genre = serializers.ReadOnlyField(source='genre.name')
 	# genre = serializers.SlugRelatedField(slug_field="genre.name", read_only=True)
 
@@ -29,20 +31,7 @@ class BookSerializer(serializers.ModelSerializer):
 		read_only_fields = ['id', 'added_by', 'updated_by']
 
 	def create(self, validated_data):
-		print(validated_data)
-		# try:
-		# 	user = self.context.get('request').user
-		# 	print(user)
-		# 	print(user.is_anonymous)
-		# 	if not user.is_anonymous:
-		# 		print("AUTHORIZED")
-		# 		validated_data['added_by'] = user
-		# 	else:
-		# 		print("NOT AUTHORIZED")
-		# 		raise serializers.ValidationError("NOT AUTHORIZED")
-		# except:
-		# 	raise serializers.ValidationError("NOT AUTHORIZED")
-		
+		# print(validated_data)
 		user = self.context.get('request').user
 		validated_data['added_by'] = user
 		return super().create(validated_data)
@@ -51,15 +40,9 @@ class BookSerializer(serializers.ModelSerializer):
 	def update(self, instance, validated_data):
 		try:
 			user = self.context.get('request').user
-			if not user.is_anonymous:
-				print("NOT AUTHORIZED")
-				validated_data['updated_by'] = user
-			else:
-				print("NOT AUTHORIZED")
-				raise serializers.ValidationError("NOT AUTHORIZED")
+			validated_data['updated_by'] = user
 		except:
-			print("NOT AUTHORIZED")
-			raise serializers.ValidationError("NOT AUTHORIZED")
+			raise serializers.DjangoValidationError("ERROR UPDATING VALUES")
 
 		return super().update(instance, validated_data)
 
@@ -68,7 +51,6 @@ class PagesWrittenSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = PagesWritten
 		fields = ('author', 'book', 'pages_written')
-
 	
 	def validate(self, data):
 
@@ -101,3 +83,46 @@ class PagesWrittenSerializer(serializers.ModelSerializer):
 			return data
 
 		raise serializers.ValidationError("Book Not Found")
+
+
+class StoreSerializer(serializers.ModelSerializer):
+	
+	# books = serializers.ReadOnlyField(source='books.name')
+
+	class Meta:
+		model = Store
+		fields = ['id', 'name', 'books', 'location']
+		read_only_fields = ['id']
+
+
+# class ActorSerializer(serializers.ModelSerializer):
+
+# 	class Meta:
+# 		model = Actor
+# 		fields = ('id', 'actor', 'gender', 'age')
+# 		read_only_fields = ('id')
+
+
+# class DirectorSerializer(serializers.ModelSerializer):
+
+# 	class Meta:
+# 		model = Director
+# 		fields = ('id', 'name', 'age')
+# 		read_only_fields = ('id')
+
+
+# class PlatformSerializer(serializers.ModelSerializer):
+
+# 	class Meta:
+# 		model = Platform
+# 		fields = ('id', 'name', 'subscription_type', 'subscription_price')
+# 		read_only_fields = ('id')
+
+
+# class MovieSerializer(serializers.ModelSerializer):
+
+# 	class Meta:
+# 		model = Movie
+# 		fields = ('name', 'description', 'length', 'rating', 'actors', 'director', 'genre', 'available_on', 'released')
+# 		read_only_fields = ('id')
+

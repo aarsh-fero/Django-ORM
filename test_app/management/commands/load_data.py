@@ -1,6 +1,7 @@
 from django.core.management.base import BaseCommand
-from ...models import Author, Book, PagesWritten, Publisher, Store
+from ...models import Author, Book, Genre, PagesWritten, Publisher, Store
 
+# from ...models import Actor, Movie, Director, Platforms
 import random
 
 import requests
@@ -14,6 +15,7 @@ class Command(BaseCommand):
 	def delete_old_data(self):
 		print("DELETING OLD DATA...")
 		PagesWritten.objects.all().delete()
+		Genre.objects.all().delete()
 		Store.objects.all().delete()
 		Book.objects.all().delete()
 		Author.objects.all().delete()
@@ -31,6 +33,10 @@ class Command(BaseCommand):
 		Publisher.objects.bulk_create(publishers)
 
 		print("Publishers CREATED...")
+
+
+	def create_authors(self):
+		print("Creating GENRES")
 
 
 	def create_authors(self, num_authors=50):
